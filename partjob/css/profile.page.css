@@ -1,0 +1,93 @@
+/* describe: 个人中心页面css配置文件 */
+
+#person-img {
+	margin: 20px 20px;
+	height: 70px;
+	width: 70px;
+	border-radius: 35px;
+}
+
+/* #my-info {
+	box-shadow: 0.5px 0.5px #AAAAAA;
+} */
+
+#info {
+	position: absolute;
+	margin-top: 20px;
+}
+
+#balance {
+	margin-top: 10px;
+}
+
+#get-money {
+	font-size: 14px;
+}
+
+#resume {
+	font-size: 0.875rem;
+	margin-right: 20px;
+	margin-top: 20px;
+	float: right;
+}
+
+#my-job {
+	background-color: #FFFFFF;
+	margin-top: 20px;
+	height: 90px;
+	/* box-shadow: 0px 1px 0.5px 0.5px #AAAAAA; */
+}
+
+#my-job #title {
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#my-job img {
+	width: 35px;
+}
+
+#my-job span div {
+	display: inline;
+	position: absolute;
+	margin-top: 35px;
+	margin-left: -38px;
+	font-size: 14px;
+}
+
+#others {
+	background-color: #FFFFFF;
+	margin-top: 20px;
+	/* box-shadow: 0px 1px 0.5px 0.5px #AAAAAA; */
+}
+
+#others img {
+	margin-top: 13px;
+	margin-left: 10px;
+	width: 25px;
+	height: 25px;
+}
+
+#others div {
+	height: 50px;
+}
+
+#others span {
+	position: absolute;
+	margin-top: 0px;
+	margin-left: 10px;
+	padding-top: 15px;
+	border-top: #EAEAEA;
+	border-width: 1px 0 0 0;
+	border-style: solid;
+}
+
+#others #more {
+	position: absolute;
+	color: #B6B6B6;
+}
+
+#commuity {
+	border-style: none !important;
+}

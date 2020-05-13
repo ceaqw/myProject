@@ -1,0 +1,113 @@
+<!doctype html>
+<html id="setting-page">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<script src="../js/mui.min.js"></script>
+		<script src="../js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			mui.init()
+			document.addEventListener( "plusready", function(){
+				plus.navigator.setStatusBarStyle("dark");
+				plus.navigator.setStatusBarBackground("#FFFFFF");
+			}, false );
+			$(function(){
+				
+			})
+		</script>
+		<style type="text/css">
+			#body-show {
+				background-color: #FFFFFF;
+				font-size: 16px;
+			}
+			
+			#body-show #block {
+				margin-top: 15px;
+				background-color: white;
+			}
+			
+			#body-show #border {
+				height: 50px;
+				margin-left: 10px;
+				line-height: 50px;
+			}
+			
+			.logout{
+				text-align: center;
+				height: 50px;
+				line-height: 50px;
+			}
+			
+			#border #more {
+				float: right;
+				margin-right: 15px;
+				color: #B6B6B6;
+			}
+			
+			#phone {
+				position: absolute;
+				margin-left: 170px;
+			}
+			
+			.border {
+				border-style: solid;
+				border-width: 0.5px 0px 0px 0rem;
+				border-color: #EAEAEA;
+			}
+		</style>
+	</head>
+	<body style="background-color: #F7F7F7;">
+		<header class="mui-bar mui-bar-nav" style="box-shadow: none;background-color: #FFFFFF; height: 45px;">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" style="color: #555555;"></a>
+			<h1 class="mui-title">设置</h1>
+		</header>
+		<div style="margin-top: 45px; background-color: #F7F7F7;" id="body-show">
+			<div id="block">
+				<div id="border">
+					<span>更换手机号</span>
+					<span id="phone">17737962591</span>
+					<span id="more">></span>
+				</div>
+				<div id="border">
+					<span>修改密码</span>
+					<span id="more">></span>
+				</div>
+			</div>
+			<div id="block">
+				<div id="border">
+					<span>隐私</span>
+					<span id="more">></span>
+				</div>
+				<div id="border" class="border">
+					<span>社交账号绑定</span>
+					<span id="more">></span>
+				</div>
+				<div id="border" class="border">
+					<span>消息推送管理</span>
+					<span id="more">></span>
+				</div>
+			</div>
+			<div id="block">
+				<div id="border">
+					<span>注销账号</span>
+					<span id="more">></span>
+				</div>
+			</div>
+			<div id="block">
+				<div id="border">
+					<span>用户协议</span>
+					<span id="more">></span>
+				</div>
+			</div>
+			<div id="block" class="logout">退出登录</div>
+		</div>
+		<span id="version" style="font-size: 10px; color: #AAAAAA; position: fixed; text-align: center;">©2020 partjob version 1.0.0</span>
+		<script type="text/javascript">
+			var version = document.getElementById("version");
+			version.style.width = screen.width+"px";
+			version.style.top = document.documentElement.clientHeight-20+"px";
+		</script>
+	</body>
+</html>

@@ -1,0 +1,97 @@
+.my-foot{
+	height: 50px;
+	border-style: solid;
+	border-width: 1px 0px 0px;
+	border-color: #ACACB4;
+	position: fixed;
+	z-index: 1;
+}
+.my-foot img {
+	margin-top: 3px;
+	width: 32px; 
+	height: 32px;
+}
+.my-foot span {
+	position: fixed;
+	/* top: 10px; */
+	font-size: 13px;
+}
+.my-foot img:nth-child(1) {
+	margin-left: 20px;
+}
+.search-icon {
+	width: 20px;
+	height: 20px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.search-input {
+	height: 30px;
+	color: #555555;
+	background-color: #F1F1F1;
+	line-height: 23px;
+	border: none;
+	font-size: 16px;
+}
+.search {
+	margin-top: 5px;;
+	background-color: #F1F1F1;
+	border-radius: 10px;
+	margin-left: 60px;
+	margin-right: 10px;
+}
+.city {
+	position: absolute;
+	z-index: 1;
+	margin-left: 8px;
+	margin-top: 10px;
+}
+#top-search {
+	top: 0px;
+	height: 55px;
+	padding-top: 10px;
+	padding-bottom: 3px;
+	border-bottom: #AAAAAA 1px;
+	border-width: 0px 0px 1px;
+	border-style: solid;
+	position: fixed;
+	z-index: 1;
+}
+#body-show {
+	position: fixed;
+	top: 55px;
+	bottom: 50px;
+	right: 0px;
+	left: 0px;
+	overflow: auto;
+}
+.choose-city {
+	background-color: #FFFFFF;
+	overflow: auto;
+	border-radius: 10px;
+	top: 15px;
+	left: 10px;
+	height: 0px; width: 0px;
+	box-shadow: 3px 3px 5px #888888;
+}
+.city-close {
+	position: fixed;
+	z-index: 1;
+	right: 15px;
+	height: 25px;
+	width: 25px;
+}
+
+#job-num, #community-num {
+			color: white;
+			font-size: 10px;
+			float: right;
+			margin-left: -5px;
+			margin-top: -28px;
+			background-color: red;
+			text-align: center;
+			line-height: 16px;
+			width: 16px;
+			height: 16px;
+			border-radius: 8px;
+		}

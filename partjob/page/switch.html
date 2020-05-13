@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="../js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		mui.init();
+		document.addEventListener( "plusready", function(){
+			plus.navigator.setStatusBarStyle("dark");
+			plus.navigator.setStatusBarBackground("#F7F7F7");
+		}, false );
+	</script>
+	<script type="text/javascript">
+		function get_job() {
+			$(function() {
+				$("#get-job").css({backgroundColor: "#F7F7F7"});
+				setTimeout(function() {
+					$("#get-job").css({backgroundColor: "#FFFFFF"});
+					// plus.webview.open("./page/seting.html", "seting-page", {top:'0px',bottom:'0px'}, "slide-in-right");
+				},150);
+			});
+		}
+		
+		function put_job() {
+			$(function() {
+				$("#put-job").css({backgroundColor: "#F7F7F7"});
+				setTimeout(function() {
+					$("#put-job").css({backgroundColor: "#FFFFFF"});
+					// plus.webview.open("./page/seting.html", "seting-page", {top:'0px',bottom:'0px'}, "slide-in-right");
+				},150);
+			});
+		}
+	</script>
+	<style type="text/css">
+		#title {
+			margin-top: 10px;
+			margin-left: 15px;
+			font-size: 26px;
+		}
+		
+		#get-job, #put-job {
+			height: 70px;
+			background-color: #FFFFFF;
+			margin-left: 10px;
+			margin-right: 10px;
+			border-radius: 10px;
+			box-shadow: 1px 2px 5px #AAAAAA;
+		}
+		
+		#get-job {
+			margin-top: 60px;
+		}
+		#put-job {
+			margin-top: 30px;
+		}
+		
+		img {
+			margin: 5px 10px;
+			width: 60px;
+			height: 60px;
+		}
+		span {
+			float: right;
+			line-height: 70px;
+			margin-right: 20px;
+			font-size: 25px;
+		}
+	</style>	
+</head>
+<body style="background-color: #F7F7F7;margin: 0px;">
+	<div id="title">请选择您的身份</div>
+	<div id="get-job" onclick="get_job()">
+		<img src="../static/svg/getjob.svg" >
+		<span>我要求职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></span>
+	</div>
+	<div id="put-job" onclick="put_job()">
+		<img src="../static/svg/sub.svg" >
+		<span>发布兼职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></span>
+	</div>
+</body>
+</html>
